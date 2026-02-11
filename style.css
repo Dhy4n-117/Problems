@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* FIXED: Missing semicolon added here */
+    background-color: #f4f4f4;
+    margin: 0; /* ADDED: Removes default browser margin */
+    font-family: Arial, sans-serif; /* ADDED: Better readability */
+}
+
+.counter {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black; /* FIXED: Missing semicolon added here */
+    background-color: white; /* ADDED: Better contrast */
+    border-radius: 8px; /* ADDED: Slight styling improvement */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
